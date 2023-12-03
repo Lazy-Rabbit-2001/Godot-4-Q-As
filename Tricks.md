@@ -38,4 +38,10 @@ while <条件>:
     <循环体代码>
     await get_tree().process_frame # 这里相当于执行了_process()，如果想要执行_physics_process()，请换成physics_frame
 ```
+```GDScript
+# 此处省略若干行代码
+for i in <范围>:
+    <循环体代码>
+    await get_tree().process_frame # 这里相当于执行了_process()，如果想要执行_physics_process()，请换成physics_frame
+```
 有些情况下，我们通过这种循环结构可以省略一条变量声明，并且还能对该帧循环进行控制，从而在最大程度上节约内存消耗。
