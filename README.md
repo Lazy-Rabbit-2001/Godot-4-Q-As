@@ -68,4 +68,4 @@
 >>A13
   
 或者，你也可以参考下下面这张图： 
-![](https://z1.ax1x.com/2023/12/11/piWlBWj.jpg)
+![](ready.jpg)
